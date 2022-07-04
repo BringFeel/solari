@@ -1,0 +1,18 @@
+{
+  "name": "solari-webserver",
+  "version": "1.0.0",
+  "description": "A simple node.js webserver",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "author": "BringFeel",
+  "license": "GNU",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "express": "4.18.1",
+    "express-error-handler": "^1.1.0",
+    "figlet": "^1.5.2",
+    "nodemon": "^1.19.4"
+  }
+}
