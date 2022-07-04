@@ -10,7 +10,7 @@ var files = fs.readdirSync(__dirname + '/WebFiles');
 
   handler = errorHandler({
     static: {
-      '404': 'Error_Pages/404.html'
+      '404': 'Server_Pages/404.html'
     }
   });
 
