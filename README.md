@@ -35,14 +35,15 @@ USE_HTTP: 'true'
 
 # SSL/HTTPS Mode
 You need a ssl certificate!
-1) Copy your ssl certificates to folder `certificates`
-2) Rename to `certificate` on the 2 files
-3) The certificates needs `.crt` and `.key` extensions
-4) Enable the https mode on `config.js`
+1) Delete the demo files in the folder
+2) Copy your ssl certificates to folder `certificates`
+3) Rename to `certificate` on the 2 files
+4) The certificates needs `.crt` and `.key` extensions
+5) Enable the https mode on `config.js`
 ```js
 USE_HTTPS: 'true',
 ```
-5) Done!
+6) Done!
 
 # Editing Files
 1) Go to the folder `WebFiles`\
