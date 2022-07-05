@@ -13,9 +13,36 @@
 1) run `npm i`
 2) If you have problems with nodemon run `npm install --global nodemon`
 3) If you are on windows use `start.bat` if you are on linux use `start.sh`
-4) Connect to `http://localhost:8080` (If you have the default config)\
+4) Connect to `http://localhost:8080` (If you have the default config)
+
 ![Solari webhost working](https://github.com/BringFeel/solari/blob/main/images/solari-working.png)\
 If you don't have the possibility to run the server via `.bat` or `.sh` use `nodemon -e js,html,css ./server.js` on terminal
+
+# Configuration
+1) Go to `config.js`
+```js
+module.exports = {
+
+PORT: '8080',
+HTTPS_PORT: '4545',
+USE_HTTPS: 'false',
+USE_HTTP: 'true'
+
+}
+```
+2) Edit the 4 configs
+3) Save, Done!
+
+# SSL/HTTPS Mode
+You need a ssl certificate!
+1) Copy your ssl certificates to folder `certificates`
+2) Rename to `certificate` on the 2 files
+3) The certificates needs `.crt` and `.key` extensions
+4) Enable the https mode on `config.js`
+```js
+USE_HTTPS: 'true',
+```
+5) Done!
 
 # Editing Files
 1) Go to the folder `WebFiles`\
